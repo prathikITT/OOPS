@@ -1,32 +1,4 @@
-package Encapsulation;//class BankAccount {
-//    private double balance;
-//
-//
-//
-//    public void deposit(double amount) {
-//        if (amount > 0) {
-//            balance += amount;
-//            System.out.println("Deposited: $" + amount);
-//        } else {
-//            System.out.println("Deposit amount must be positive!");
-//        }
-//    }
-//
-//    public void withdraw(double withdrawAmount) {
-//        if (withdrawAmount > 0 && withdrawAmount <= balance) {
-//            balance -= withdrawAmount;
-//            System.out.println("Withdrawn: $" + withdrawAmount);
-//        } else {
-//            System.out.println("Invalid withdrawal amount!");
-//        }
-//    }
-//
-//
-//    public double getBalance() {
-//        return balance;
-//    }
-//}
-
+package Encapsulation;
 
 class GameCharacter {
     private int health;
