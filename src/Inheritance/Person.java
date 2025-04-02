@@ -12,5 +12,9 @@ public class Person {
     void displayInfo() {
         System.out.println("Name: " + name + ", Age: " + age);
     }
+    public Person(Person person){
+        this.name = person.name;
+        this.age = person.age;
+    }
 }
 

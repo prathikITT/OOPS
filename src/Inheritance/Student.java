@@ -3,8 +3,8 @@ package Inheritance;
 class Student extends Person {
     String studentID;
 
-    Student(String name, int age, String studentID) {
-        super(name, age);
+    public Student(Person person, String studentID) {
+        super(person);
         this.studentID = studentID;
     }
 
